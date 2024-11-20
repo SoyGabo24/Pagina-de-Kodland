@@ -1,0 +1,59 @@
+:root {
+    --azul: #5988FF;
+    --rosa: #FD98FB;
+    --verde: #D6FF6B;
+    --blanco: #FFFFFF;
+    --negro: #222;
+  }
+  
+  /* Estilo global */
+  body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--rosa);
+    color: var(--blanco);
+    line-height: 1.6;
+    text-align: center;
+  }
+  /* Encabezado */
+  header {
+    background-color: var(--azul);
+    padding: 1.5rem 0;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  /* Secciones */
+  main {
+    padding: 2rem;
+  }
+  .intro {
+    margin-bottom: 2rem;
+  }
+  .features {
+    background-color: var(--verde);
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .features h2 {
+    color: var(--negro);
+  }
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .features li {
+    background-color: var(--azul);
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+  } 
+  /* Pie de página */
+  footer {
+    background-color: var(--negro);
+    color: var(--blanco);
+    padding: 1rem;
+    margin-top: 2rem;
+  }
